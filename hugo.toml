@@ -1,0 +1,41 @@
+baseURL = "http://localhost/"
+languageCode = "ko-kr"
+title = "JO TECH BLOG"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = "auto"
+ShowCodeCopyButtons = true
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowToc = true
+
+[menu]
+
+[[menu.main]]
+identifier = "linux"
+name = "Linux"
+url = "/linux/"
+weight = 10
+
+[[menu.main]]
+identifier = "network"
+name = "Network"
+url = "/network/"
+weight = 20
+
+[[menu.main]]
+identifier = "storage"
+name = "Storage"
+url = "/storage/"
+weight = 30
+
+[[menu.main]]
+identifier = "broadcast"
+name = "Broadcast"
+url = "/broadcast/"
+weight = 40

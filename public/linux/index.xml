@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linuxes on JO TECH BLOG</title>
+    <link>http://localhost:1313/linux/</link>
+    <description>Recent content in Linuxes on JO TECH BLOG</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu NVIDIA Driver 설치</title>
+      <link>http://localhost:1313/linux/ubuntu-nvidia/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/linux/ubuntu-nvidia/</guid>
+      <description>&lt;h1 id=&#34;ubuntu-nvidia-driver-설치&#34;&gt;Ubuntu NVIDIA Driver 설치&lt;/h1&gt;
+&lt;p&gt;Ubuntu에서 NVIDIA Driver를 설치하는 방법입니다.&lt;/p&gt;
+&lt;h2 id=&#34;커널-패키지-설치&#34;&gt;커널 패키지 설치&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf install kernel-devel-&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;uname -r&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; kernel-headers-&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;uname -r&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;설치-확인&#34;&gt;설치 확인&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvidia-smi
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
